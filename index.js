@@ -3,3 +3,4 @@ let name = process.argv[2];
 writeFile('data.json', name, (err) => console.error('err ->', err));
 let name = process.argv[2];
 console.log(`good day ${name}, are you well?`);
+console.log(`yo ${name}, what's up dude.`);
